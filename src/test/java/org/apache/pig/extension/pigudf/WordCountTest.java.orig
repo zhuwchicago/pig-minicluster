@@ -1,0 +1,20 @@
+package org.apache.pig.extension.pigudf;
+
+import junit.framework.TestCase;
+
+import org.apache.pig.pigunit.PigTest;
+
+/**
+ * Unit test for WordCount.
+ */
+public class WordCountTest 
+    extends TestCase
+{
+	
+	/**public void testWordCount() throws Exception {
+		PigTest pigTest = new PigTest("src/main/resources/scripts/wordcount.pig");
+		pigTest.assertOutput("D", new String[] { "(1,Note1)", "(3,Note2)",
+		"(1,Note5)" });
+		} 
+	*/
+}
